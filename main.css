@@ -1,0 +1,354 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Avant Garde, Helvetica;
+    color: white;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(243, 243, 243);
+
+
+}
+
+#nav {
+    width: 100%;
+    height: 8vh;
+    background-color: black;
+}
+
+#nav1 {
+    display: flex;
+    align-items: center;
+    gap: 0vw;
+    width: 100%;
+    height: 8vh;
+
+    overflow: hidden;
+}
+
+#nav1 a {
+    padding: 0.75vw 1vw;
+    text-decoration: none;
+    font-family: Avant Garde, Helvetica;
+    font-size: 2vw;
+    text-align: center;
+    color: white;
+    transition: all 0.5s;
+}
+
+a:hover {
+    background-color: gray;
+
+
+
+}
+
+#nav1 a.active {
+    background-color: gray;
+}
+
+#sec {
+    background-image: url(./img/bcg.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90%;
+    text-align: center;
+    background-color: rgb(119, 87, 87);
+
+}
+
+#sec>h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    cursor: pointer;
+    color: rgb(231, 225, 225);
+}
+
+h1:hover {
+    scale: 1.15;
+    transition: all 0.9s;
+}
+
+p {
+    position: absolute;
+    top: 60%;
+    cursor: pointer;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    transition: all 0.9s;
+    cursor: pointer;
+    color: rgb(231, 225, 225);
+
+}
+
+p:hover {
+    scale: 1.09;
+
+}
+
+button {
+    position: absolute;
+    top: 80%;
+  right: 0%;
+    transform: translate(-10%, 0);
+    padding: 15px 90px;
+    font-size: 30px;
+    font-weight: 500;
+    transition: all 0.5s;
+    cursor: pointer;
+    color: black;
+    border: 4px solid black;
+
+
+
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border: 4px solid white;
+    transition: all 0.5s;
+}
+
+#sec2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+#image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 560px;
+    background-color: black;
+
+}
+
+#image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+}
+
+#h {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+#sec3 {
+    width: 100%;
+    height: 170%;
+
+    margin-top: 20px;
+}
+
+#up {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+
+
+
+}
+
+#left {
+
+    width: 50%;
+    height: 100%;
+    background-color: brown;
+}
+
+#left img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+
+}
+
+#right {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+#right #con {
+    overflow: hidden;
+    color: black;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#con>h1 {
+    color: black;
+    margin-bottom: 20px;
+
+}
+
+#con>h5 {
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: black;
+    text-align: start;
+    margin-left: 40px;
+    opacity: 0.69;
+    font-weight: 100;
+    line-height: 40px;
+
+}
+
+#down {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+
+}
+
+#l {
+    width: 50%;
+    height: 100%;
+
+    text-align: center;
+}
+
+#l>h1 {
+    color: black;
+    margin-top: 40px;
+    font-size: 50px;
+}
+
+#l>h5 {
+    font-size: 25px;
+    text-align: start;
+    margin: 20px 20px;
+    color: black;
+    line-height: 50px;
+}
+
+#l>h3 {
+
+    color: black;
+
+}
+
+#r {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(197, 178, 155);
+}
+
+#r img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#sec4 {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#footer>h1 {
+    color: black;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+.wrapper { 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    max-width: 350px; 
+    width: 100%; 
+    background: #fff; 
+    padding: 25px; 
+    border-radius: 5px; 
+    box-shadow: 4px 4px 2px
+        rgba(254, 236, 164, 1); 
+} 
+  
+.wrapper h2 { 
+    text-align: center; 
+    margin-bottom: 20px; 
+    text-transform: uppercase; 
+    letter-spacing: 3px; 
+    color: #332902; 
+} 
+  
+.wrapper .input_field { 
+    margin-bottom: 10px; 
+} 
+  
+.wrapper 
+    .input_field 
+    input[type="text"], 
+.wrapper textarea { 
+    border: 1px solid #e0e0e0; 
+    width: 100%; 
+    padding: 10px; 
+} 
+  
+.wrapper textarea { 
+    resize: none; 
+    height: 80px; 
+} 
+  
+.wrapper .btn input[type="submit"] { 
+    border: 0px; 
+    margin-top: 15px; 
+    padding: 10px; 
+    text-align: center; 
+    width: 100%; 
+    background: #569a4d; 
+    color: #fcfbf7; 
+    text-transform: uppercase; 
+    letter-spacing: 5px; 
+    font-weight: bold; 
+    border-radius: 25px; 
+    cursor: pointer; 
+} 
+  
+#error_message { 
+    margin-bottom: 20px; 
+    background: #fe8b8e; 
+    padding: 0px; 
+    text-align: center; 
+    font-size: 14px; 
+    transition: all 0.5s ease; 
+}
