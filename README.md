@@ -12,3 +12,19 @@ Debugging code
 Upgrading HTML website with CSS
 Created responsive website with bootstrap
 Created a live personal portfolio website
+writing alert() method
+linking javascript files
+document.write() method
+variable assignment
+string assignment
+concatenattion
+expression
+comment
+function
+maths operation
+dictionary assignment
+development tools
+loops
+upgrading website with new HTML, CSS and javascript
+
+
